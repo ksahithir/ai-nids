@@ -18,7 +18,7 @@ from backend.app.database.db import (
 
 router = APIRouter(prefix="/api")
 
-DATA_DIR = r"C:\Users\Sahithi\Desktop\ainids"
+DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
 SAMPLE_CSV_PATH = os.path.join(DATA_DIR, "data", "processed", "sample_traffic_test.csv")
 FIGURES_DIR = os.path.join(DATA_DIR, "reports", "figures")
 

@@ -3,7 +3,7 @@ import random
 import pandas as pd
 from datetime import datetime
 
-DATA_DIR = r"C:\Users\Sahithi\Desktop\ainids"
+DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", ".."))
 SAMPLE_CSV = os.path.join(DATA_DIR, "data", "processed", "sample_traffic_test.csv")
 TEST_PARQUET = os.path.join(DATA_DIR, "data", "processed", "test.parquet")
 
@@ -16,7 +16,7 @@ class SimulationService:
         if os.path.exists(SAMPLE_CSV):
             self.samples_df = pd.read_csv(SAMPLE_CSV)
         elif os.path.exists(TEST_PARQUET):
-            self.samples_df = pd.read_parquet(TEST_PARQUET).sample(n=500, random_state=42)
+            self.samples_df = pd.read_parquet(TEST_PARQUET, engine="fastparquet").sample(n=500, random_state=42)
         else:
             self.samples_df = pd.DataFrame()
 

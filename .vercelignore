@@ -4,6 +4,7 @@ data/processed/*.parquet
 
 # Ignore reports and figures
 reports/
+!reports/figures/
 
 # Ignore test scripts and dev utilities
 tests/
