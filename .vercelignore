@@ -18,3 +18,11 @@ DEPLOYMENT*.md
 
 # Ignore git
 .git
+
+# Ignore training/dev-only scripts (not needed by the live API)
+ml/train.py
+ml/evaluate.py
+ml/data_loader.py
+
+# Ignore unused candidate models (only final_model + preprocessing_pipeline needed at runtime)
+models/candidate_*.joblib

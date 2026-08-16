@@ -10,7 +10,7 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")
 
 from ml.preprocessing import load_preprocessor, CANONICAL_CLASSES, SEVERITY_MAPPING
 
-DATA_DIR = r"C:\Users\Sahithi\Desktop\ainids"
+DATA_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 MODELS_DIR = os.path.join(DATA_DIR, "models")
 
 class NIDSPredictor:
