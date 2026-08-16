@@ -1,0 +1,20 @@
+# Ignore raw & heavy parquet dataset files (450+ MB)
+data/raw/
+data/processed/*.parquet
+
+# Ignore reports and figures
+reports/
+
+# Ignore test scripts and dev utilities
+tests/
+inspect_dataset*.py
+analyze_columns.py
+verify_container_runtime.py
+
+# Ignore Docker & deployment docs
+Dockerfile
+docker-compose.yml
+DEPLOYMENT*.md
+
+# Ignore git
+.git
