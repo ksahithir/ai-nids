@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+# Raw Data Parquet Files (large dataset files)
+*.parquet
+*.parquet.tmp
+data/raw/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database & OS
+ai_nids.db
+ai_nids.db-wal
+ai_nids.db-shm
+.DS_Store
+Thumbs.db
+.env
+.pytest_cache.zip

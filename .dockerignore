@@ -1,0 +1,21 @@
+# Docker ignore
+*.parquet
+*.parquet.tmp
+data/raw/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+.git/
+.gitignore
+.env
+.venv/
+env/
+venv/
+ai_nids.db-wal
+ai_nids.db-shm

@@ -1,0 +1,400 @@
+{
+  "total_rows": 2313810,
+  "constant_columns": [
+    "Bwd PSH Flags",
+    "Bwd URG Flags",
+    "Fwd Avg Bytes/Bulk",
+    "Fwd Avg Packets/Bulk",
+    "Fwd Avg Bulk Rate",
+    "Bwd Avg Bytes/Bulk",
+    "Bwd Avg Packets/Bulk",
+    "Bwd Avg Bulk Rate"
+  ],
+  "feature_ranges": {
+    "Protocol": {
+      "min": 0.0,
+      "max": 17.0,
+      "mean": 10.506734779433057
+    },
+    "Flow Duration": {
+      "min": -13.0,
+      "max": 119999998.0,
+      "mean": 18075748.2686409
+    },
+    "Total Fwd Packets": {
+      "min": 1.0,
+      "max": 219759.0,
+      "mean": 11.0839139773793
+    },
+    "Total Backward Packets": {
+      "min": 0.0,
+      "max": 291922.0,
+      "mean": 12.55333843314706
+    },
+    "Fwd Packets Length Total": {
+      "min": 0.0,
+      "max": 12900000.0,
+      "mean": 666.4044545576344
+    },
+    "Bwd Packets Length Total": {
+      "min": 0.0,
+      "max": 655453030.0,
+      "mean": 19769.755820054368
+    },
+    "Fwd Packet Length Max": {
+      "min": 0.0,
+      "max": 24820.0,
+      "mean": 250.62913938482416
+    },
+    "Fwd Packet Length Min": {
+      "min": 0.0,
+      "max": 2325.0,
+      "mean": 21.42395831982747
+    },
+    "Fwd Packet Length Mean": {
+      "min": 0.0,
+      "max": 5940.85693359375,
+      "mean": 68.80502763839728
+    },
+    "Fwd Packet Length Std": {
+      "min": 0.0,
+      "max": 7125.5966796875,
+      "mean": 82.9915394954642
+    },
+    "Bwd Packet Length Max": {
+      "min": 0.0,
+      "max": 19530.0,
+      "mean": 1063.2220398390534
+    },
+    "Bwd Packet Length Min": {
+      "min": 0.0,
+      "max": 2896.0,
+      "mean": 48.06050367143369
+    },
+    "Bwd Packet Length Mean": {
+      "min": 0.0,
+      "max": 5800.5,
+      "mean": 372.1293805455072
+    },
+    "Bwd Packet Length Std": {
+      "min": 0.0,
+      "max": 8194.66015625,
+      "mean": 410.22525228951383
+    },
+    "Flow Bytes/s": {
+      "min": -261000000.0,
+      "max": 2071000000.0,
+      "mean": 496887.3105979471
+    },
+    "Flow Packets/s": {
+      "min": -2000000.0,
+      "max": 4000000.0,
+      "mean": 20434.157964937578
+    },
+    "Flow IAT Mean": {
+      "min": -13.0,
+      "max": 120000000.0,
+      "mean": 1575398.7293753594
+    },
+    "Flow IAT Std": {
+      "min": 0.0,
+      "max": 84800264.0,
+      "mean": 3571410.1598454495
+    },
+    "Flow IAT Max": {
+      "min": -13.0,
+      "max": 120000000.0,
+      "mean": 11220742.827223064
+    },
+    "Flow IAT Min": {
+      "min": -14.0,
+      "max": 120000000.0,
+      "mean": 185553.8055575004
+    },
+    "Fwd IAT Total": {
+      "min": 0.0,
+      "max": 120000000.0,
+      "mean": 17705486.367809802
+    },
+    "Fwd IAT Mean": {
+      "min": 0.0,
+      "max": 120000000.0,
+      "mean": 3180206.4487853367
+    },
+    "Fwd IAT Std": {
+      "min": 0.0,
+      "max": 84602928.0,
+      "mean": 3996828.4405720434
+    },
+    "Fwd IAT Max": {
+      "min": 0.0,
+      "max": 120000000.0,
+      "mean": 11050097.890618935
+    },
+    "Fwd IAT Min": {
+      "min": -12.0,
+      "max": 120000000.0,
+      "mean": 1237064.7315120948
+    },
+    "Bwd IAT Total": {
+      "min": 0.0,
+      "max": 120000000.0,
+      "mean": 12104144.013332987
+    },
+    "Bwd IAT Mean": {
+      "min": 0.0,
+      "max": 120000000.0,
+      "mean": 2209130.4700040193
+    },
+    "Bwd IAT Std": {
+      "min": 0.0,
+      "max": 84418016.0,
+      "mean": 1817957.6638012629
+    },
+    "Bwd IAT Max": {
+      "min": 0.0,
+      "max": 120000000.0,
+      "mean": 5731221.989630955
+    },
+    "Bwd IAT Min": {
+      "min": 0.0,
+      "max": 120000000.0,
+      "mean": 1183272.1036221643
+    },
+    "Fwd PSH Flags": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.038341955476033036
+    },
+    "Bwd PSH Flags": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "Fwd URG Flags": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 9.94031489188827e-06
+    },
+    "Bwd URG Flags": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "Fwd Header Length": {
+      "min": -32212234632.0,
+      "max": 4644908.0,
+      "mean": -31815.608674005212
+    },
+    "Bwd Header Length": {
+      "min": -1073741320.0,
+      "max": 5838440.0,
+      "mean": -2784.8791638034236
+    },
+    "Fwd Packets/s": {
+      "min": 0.0,
+      "max": 3000000.0,
+      "mean": 16066.779830668896
+    },
+    "Bwd Packets/s": {
+      "min": 0.0,
+      "max": 2000000.0,
+      "mean": 4439.547779636185
+    },
+    "Packet Length Min": {
+      "min": 0.0,
+      "max": 1448.0,
+      "mean": 18.841809396622885
+    },
+    "Packet Length Max": {
+      "min": 0.0,
+      "max": 24820.0,
+      "mean": 1158.0881671355903
+    },
+    "Packet Length Mean": {
+      "min": 0.0,
+      "max": 3337.142822265625,
+      "mean": 207.24420458032424
+    },
+    "Packet Length Std": {
+      "min": 0.0,
+      "max": 4731.5224609375,
+      "mean": 358.9645398714674
+    },
+    "Packet Length Variance": {
+      "min": 0.0,
+      "max": 22400000.0,
+      "mean": 594046.0902425004
+    },
+    "FIN Flag Count": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.03273561787700805
+    },
+    "SYN Flag Count": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.038341955476033036
+    },
+    "RST Flag Count": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.00029648069634066754
+    },
+    "PSH Flag Count": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.2717703700822453
+    },
+    "ACK Flag Count": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.28737796102532187
+    },
+    "URG Flag Count": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.0902757789101093
+    },
+    "CWE Flag Count": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 9.94031489188827e-06
+    },
+    "ECE Flag Count": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.000297777259152653
+    },
+    "Down/Up Ratio": {
+      "min": 0.0,
+      "max": 156.0,
+      "mean": 0.7052675025174928
+    },
+    "Avg Packet Size": {
+      "min": 0.0,
+      "max": 3893.333251953125,
+      "mean": 230.52890686789323
+    },
+    "Avg Fwd Segment Size": {
+      "min": 0.0,
+      "max": 5940.85693359375,
+      "mean": 68.80502763839728
+    },
+    "Avg Bwd Segment Size": {
+      "min": 0.0,
+      "max": 5800.5,
+      "mean": 372.1293805455072
+    },
+    "Fwd Avg Bytes/Bulk": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "Fwd Avg Packets/Bulk": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "Fwd Avg Bulk Rate": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "Bwd Avg Bytes/Bulk": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "Bwd Avg Packets/Bulk": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "Bwd Avg Bulk Rate": {
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0
+    },
+    "Subflow Fwd Packets": {
+      "min": 1.0,
+      "max": 219759.0,
+      "mean": 11.0839139773793
+    },
+    "Subflow Fwd Bytes": {
+      "min": 0.0,
+      "max": 12870338.0,
+      "mean": 666.3916350089247
+    },
+    "Subflow Bwd Packets": {
+      "min": 0.0,
+      "max": 291922.0,
+      "mean": 12.55333843314706
+    },
+    "Subflow Bwd Bytes": {
+      "min": 0.0,
+      "max": 655453030.0,
+      "mean": 19769.339763852695
+    },
+    "Init Fwd Win Bytes": {
+      "min": -1.0,
+      "max": 65535.0,
+      "mean": 7250.857630488243
+    },
+    "Init Bwd Win Bytes": {
+      "min": -1.0,
+      "max": 65535.0,
+      "mean": 2133.284630976614
+    },
+    "Fwd Act Data Packets": {
+      "min": 0.0,
+      "max": 213557.0,
+      "mean": 6.537629710304649
+    },
+    "Fwd Seg Size Min": {
+      "min": -536870661.0,
+      "max": 138.0,
+      "mean": -3360.480192409921
+    },
+    "Active Mean": {
+      "min": 0.0,
+      "max": 110000000.0,
+      "mean": 99770.8654729645
+    },
+    "Active Std": {
+      "min": 0.0,
+      "max": 74200000.0,
+      "mean": 50323.97351208613
+    },
+    "Active Max": {
+      "min": 0.0,
+      "max": 110000000.0,
+      "mean": 187405.33995963368
+    },
+    "Active Min": {
+      "min": 0.0,
+      "max": 110000000.0,
+      "mean": 71319.80493428587
+    },
+    "Idle Mean": {
+      "min": 0.0,
+      "max": 120000000.0,
+      "mean": 10172610.799026713
+    },
+    "Idle Std": {
+      "min": 0.0,
+      "max": 76900000.0,
+      "mean": 616408.7493441553
+    },
+    "Idle Max": {
+      "min": 0.0,
+      "max": 120000000.0,
+      "mean": 10637159.022274949
+    },
+    "Idle Min": {
+      "min": 0.0,
+      "max": 120000000.0,
+      "mean": 9688132.652073853
+    }
+  }
+}

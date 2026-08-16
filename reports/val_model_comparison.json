@@ -1,0 +1,42 @@
+[
+  {
+    "model_name": "LogisticRegression",
+    "train_time_sec": 12.59,
+    "val_time_sec": 0.0076,
+    "accuracy": 0.18201463924712444,
+    "macro_precision": 0.1482176124635522,
+    "macro_recall": 0.21165304648431818,
+    "macro_f1": 0.10724515443503288,
+    "weighted_f1": 0.18911399680000032
+  },
+  {
+    "model_name": "DecisionTree",
+    "train_time_sec": 2.36,
+    "val_time_sec": 0.0052,
+    "accuracy": 0.9870338096897874,
+    "macro_precision": 0.8498017962137808,
+    "macro_recall": 0.8543692472521734,
+    "macro_f1": 0.8510662125035275,
+    "weighted_f1": 0.9872883628270966
+  },
+  {
+    "model_name": "RandomForest",
+    "train_time_sec": 3.44,
+    "val_time_sec": 0.1251,
+    "accuracy": 0.9849424886720112,
+    "macro_precision": 0.8805282714917314,
+    "macro_recall": 0.8918909332446565,
+    "macro_f1": 0.8806404784284465,
+    "weighted_f1": 0.9854482339248701
+  },
+  {
+    "model_name": "HistGradientBoosting",
+    "train_time_sec": 19.17,
+    "val_time_sec": 0.2036,
+    "accuracy": 0.986336702683862,
+    "macro_precision": 0.9248003964745798,
+    "macro_recall": 0.9198846086523388,
+    "macro_f1": 0.9163035178019321,
+    "weighted_f1": 0.9867247770426678
+  }
+]

@@ -1,0 +1,27 @@
+AI-NIDS FINAL MODEL EVALUATION REPORT
+Model: HistGradientBoosting
+Evaluation Time: 2026-08-15T12:21:18.306245
+Test Samples: 14,345
+======================================================================
+
+                            precision    recall  f1-score   support
+
+                    Benign       0.99      0.99      0.99      3000
+                  DoS Hulk       1.00      1.00      1.00      3000
+                      DDoS       1.00      1.00      1.00      3000
+             DoS GoldenEye       1.00      1.00      1.00      1543
+               FTP-Patator       1.00      1.00      1.00       890
+             DoS slowloris       1.00      0.99      1.00       808
+          DoS Slowhttptest       0.99      1.00      0.99       784
+               SSH-Patator       0.99      0.99      0.99       483
+                  PortScan       0.98      0.99      0.98       293
+  Web Attack - Brute Force       0.80      0.62      0.70       220
+                       Bot       0.96      0.99      0.97       216
+          Web Attack - XSS       0.43      0.67      0.52        98
+              Infiltration       0.80      0.80      0.80         5
+Web Attack - SQL Injection       0.60      1.00      0.75         3
+                Heartbleed       1.00      1.00      1.00         2
+
+                  accuracy                           0.99     14345
+                 macro avg       0.90      0.94      0.91     14345
+              weighted avg       0.99      0.99      0.99     14345

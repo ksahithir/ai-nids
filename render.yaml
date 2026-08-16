@@ -1,0 +1,28 @@
+services:
+  # 1. AI-NIDS Backend (FastAPI ML Service)
+  - type: web
+    name: ainids-backend
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: API_HOST
+        value: 0.0.0.0
+
+  # 2. AI-NIDS Frontend (React SOC Dashboard)
+  - type: web
+    name: ainids-frontend
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: VITE_API_URL
+        value: https://ainids-backend.onrender.com/api
